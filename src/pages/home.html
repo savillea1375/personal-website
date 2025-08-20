@@ -8,12 +8,12 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 </head>
 <body>
-    <div id="header">
+    <header>
         <div id="header-content">
             <img id="self-photo" src="../assets/images/self.jpg" alt="photo of Aiden Saville">
             <div id="header-text">
                 <h1 id="name">Aiden Saville</h1>
-                <h3 id="title">Sophomore Computer Science Student</h3>
+                <h3 id="title">Sophomore pursuing a B.S. in Computer Science</h3>
                 <div id="social-icons">
                     <a href="https://www.linkedin.com/in/aiden-saville/" target="_blank">
                         <img src="../assets/svgs/linkedin.svg" alt="linkedin icon">
@@ -21,9 +21,59 @@
                     <a href="https://github.com/savillea1375" target="_blank">
                         <img src="../assets/svgs/github.svg" alt="linkedin icon">
                     </a>
+                    <a href="mailto:aidensaville@gmail.com" target="_parent">
+                        <img src="../assets/svgs/gmail.svg" alt="gmail icon" height="28">
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
+    <main>
+        <div id="contact" class="card">
+            <h4>Contact</h4>
+            <p>Email: <a href="mailto:aidensaville@gmail.com">aidensaville@gmail.com</a></p>
+            <p>Phone: +1 (315) 224-4850</p>
+        </div>
+        <div id="projects" class="card">
+            <h4>Projects</h4>
+            <div id="custom-shell" class="project">
+                <img src="../assets/svgs/terminal.svg" alt="terminal" width="128">
+                <div class="project-text-wrapper">
+                    <div class="project-title-wrapper">
+                        <h3 class="project-title">Custom Shell | C</h3>
+                        <h3>June 2025</h3>
+                    </div>
+                    <p class="project-description">UNIX-based shell made in C supporting basic built-in commands (echo, pwd, cd, etc.) and external commands. Also supports command history and output redirection.</p>
+                    <a href="https://github.com/savillea1375/custom-shell" target="_blank">GitHub Project Page</a>
+                </div>
+            </div>
+            <div id="chat-application" class="project">
+                <img src="../assets/svgs/chat-icon.svg" alt="terminal" width="128">
+                <div class="project-text-wrapper">
+                    <div class="project-title-wrapper">
+                        <h3 class="project-title">Java Chat App | Java, MongoDB</h3>
+                        <h3>May 2025</h3>
+                    </div>
+                    <p class="project-description">Multithreaded client-server chat app supporing both JavaFX and CLI clients using Java Sockets. Implements AES-128 encryption for messages and login/signup features using MongoDB.</p>
+                    <a href="https://github.com/savillea1375/chat-application" target="_blank">GitHub Project Page</a>
+                </div>
+            </div>
+        </div>
+        <div id="skills" class="card">
+            <h4>Skills</h4>
+            <ul id="skill-list">
+                <li>HTML, CSS, JavaScript</li>
+                <li>C/C++</li>
+                <li>Java</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+        <div id="work-experience" class="card">
+            <h4>Experience</h4>
+        </div>
+        <div id="education" class="card">
+            <h4>Education</h4>
+        </div>
+    </main>
 </body>
 </html>
